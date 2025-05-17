@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Currículo</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header class="container">
+        <div class="logo">
+            <img src="helen.jpg" alt="Esta sou eu." width="150">
+        </div>
+
+        <div class="titulo">
+            <h1>Meu currículo</h1>
+            <p>Muito prazer, sou <span style="color:  #2980b9;">Helen Zanco Neis</span>.</p>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="tab-buttons">
+            <button class="tab-btn" content-id="sobreMim">Sobre mim</button>
+            <button class="tab-btn" content-id="dadosCadastrais">Dados Cadastrais</button>
+            <button class="tab-btn" content-id="formacao">Formação Acadêmica</button>
+            <button class="tab-btn" content-id="cursocomplementar">Cursos Complementares</button>
+            <button class="tab-btn" content-id="expeProfissional">Experiência Profissional</button>
+            <button class="tab-btn" content-id="softhardskills">Soft e Hard Skills</button>
+        </div>
+
+
+        <div class="tab-content">
+
+            <div class="content show" id="sobreMim">
+                <div class="curriculo-box">
+                    <h1>Helen Zanco Neis 👐</h1>
+                    <h2>Estudante de Ciência da Computação</h2>
+
+                    <div class="secao">
+                        <h3>Formação Acadêmica</h3>
+                        <p>Estudante de Ciência da Computação no <strong>IFSul - Instituto Federal
+                                Sul-Rio-grandense</strong>.</p>
+                        <p>Formada como Técnica em Eletrônica pelo <strong>Instituto Cecy Leite Costa</strong>.</p>
+                    </div>
+
+                    <div class="secao">
+                        <h3>Experiência Profissional</h3>
+                        <p>Atualmente auxilia nas atividades de TI na <strong>JR Comércio de Cimento</strong>.</p>
+                        <p>Estágio concluído em <strong>Engenharia e Qualidade de Software</strong> na
+                            <strong>Compass.uol</strong>.
+                        </p>
+                        <p>Experiência prévia em <strong>Eletrônica hospitalar</strong> no <strong>HSVP</strong>.</p>
+                    </div>
+
+                    <div class="secao">
+                        <h3>Projetos e Atividades</h3>
+                        <p>Desenvolve projetos na área de <strong>programação front-end, back-end</strong> e
+                            <strong>Engenharia de Software</strong>.
+                        </p>
+                    </div>
+
+                    <div class="secao">
+                        <h3>Perfil</h3>
+                        <p>Está constantemente aprimorando o aprendizado, especialmente na área de estudo atual.</p>
+                        <p>Gosta de <strong>compartilhar conhecimento</strong>! 👐</p>
+
+                        <a href="https://www.linkedin.com/in/helen-zanco-neis-66a098260" target="_blank"
+                            style="text-decoration: none; color: #0e76a8;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"
+                                style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content" id="dadosCadastrais">
+                <div class="curriculo-box">
+                    <h2>Formulário de Contato</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome:</label>
+                            <input type="text" class="form-control" id="nome" name="nome" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="idade" class="form-label">Idade:</label>
+                            <input type="number" class="form-control" id="idade" name="idade" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="endereco" class="form-label">Endereço:</label>
+                            <input type="text" class="form-control" id="endereco" name="endereco" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone:</label>
+                            <input type="tel" class="form-control" id="telefone" name="telefone" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="content" id="formacao">
+                <div class="curriculo-box">
+                    <ul>
+                        <li><strong>Bacharelado em Ciência da Computação</strong> - Cursando o 5º semestre no
+                            <strong>Instituto Federal Sul-rio-grandense (IFSul)</strong>.
+                        </li>
+                        <br>
+                        <li><strong>Técnico em Eletrônica</strong> - Completo pelo <strong>Instituto Estadual Cecy
+                                Leite Costa</strong>.</li>
+                            <br>
+                        <li><strong>Ensino Médio</strong> - Completo pelo <strong>Instituto Estadual Cecy
+                                Leite Costa</strong>.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content" id="cursocomplementar">
+                <div class="curriculo-box">
+                    <h4>Cursos realizados na <strong>Udemy</strong>:</h4>
+                    <ul>
+                        <li>Performance Tests - Primeiros passos com o K6.</li>
+                        <li>Aprenda Postman em 1 Hora - iniciante.</li>
+                        <li>Início Rápido em Teste e QA.</li>
+                        <li>Fundamentos do Scrum Agile.</li>
+                        <li>Certificação Amazon AWS Certified Cloud Practitioner CLF-C02.</li>
+                        <li>JMeter - Testes de performance.</li>
+                        <li>Como Criar e Usar Mapas Mentais Digitais (Guia Completo).</li>
+                        <li>Testes Exploratórios.</li>
+                        <li>Comunicação Assertiva.</li>
+
+                    </ul>
+                    <br>
+                    <h4>Cursos realizados no <strong>IFSul - Instituto Federal Sul-rio-grandense</strong>:</h4>
+                    <ul>
+                        <li>Ministrante da oficina de Hackathon da XIV Semana Acadêmica.</li>
+                        <li>Inglês Nível 1 e 2.</li>
+                    </ul>
+                    <br>
+                    <h4>Curso realizado no <strong>SENAC - Serviço Nacional de Aprendizagem Comercial</strong>:</h4>
+                    <ul>
+                        <li>Aprendizagem Profissional em Comércio, Bens e Turismo.</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="content" id="expeProfissional">
+                <div class="curriculo-box">
+                    <div class="experiencia">
+                        <h4>Maio de 2024 - Atual</h4>
+                        <p><strong>JR Comércio de Cimento e Concreto Ltda</strong> - Estagiária da TI <em>(Passo Fundo,
+                                RS)</em></p>
+                        <ul>
+                            <li>Auxílio, suporte e manutenção nas atividades da informática</li>
+                            <li>Sanar dúvidas e atender demandas solicitadas pelos trabalhadores da empresa</li>
+                            <li>Atividades técnicas: Rede de computadores, SO Windows e Linux, Firewall (IPS, MACs), Instalações de softwares padrão no SO, 
+                            VPN, acesso remoto,  manutenção e upgrades no hardware dos equipamentos da TI e nos servidores, instalações e mudanças da TI 
+                            nos setores (backup and restore)</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="experiencia">
+                        <h4>Novembro de 2024 - Abril de 2025</h4>
+                        <p><strong>Compass UOL</strong> - Estágio em Software Quality Engineering <em>(Remoto)</em></p>
+                        <p>Atividades voltadas para a área da engenharia e qualidade de software, testes manuais e 
+                            automatizados com foco em performance. Ferramentas utilizadas: </p>
+                        <ol>
+                            <li>K6,  API Rest, Postman, JIRA, GitHub, GitLab, JMeter, Docker, Swagger</li>
+                            <li>Automação de testes com JavaScript, Mocha e Chai.js</li>
+                            <li>Bancos de dados relacionais (PostgreSQL, SQL) e NoSQL (MongoDB)</li>
+                            <li>Plataformas cloud como Amazon Web Services (AWS), incluindo Amazon EC2</li>
+                        </ol>
+                        <p>Metodologia ágil (Scrum), planejamento e execução de diversos tipos de testes, plano de testes de acordo com user stories, 
+                            requisitos funcionais e não funcionais e garantia de qualidade - QA</p>
+                    </div>
+                    <br>
+                    <div class="experiencia">
+                        <h4>Janeiro de 2022 - Abril de 2024</h4>
+                        <p><strong>ELT Manutenção de Equipamentos Eletrônicos</strong> - Técnica em Eletrônica
+                            <em>(Passo Fundo, RS)</em></p>
+                        <ul>
+                            <li>Iniciou como estagiária, efetivada como auxiliar técnica e atualmente atuando como
+                                Técnica em eletrônica</li>
+                            <li>Conserto de equipamentos médico-hospitalares</li>
+                            <li>Experiência com manutenções preventivas e corretivas</li>
+                            <li>Testes e procedimentos padrão para garantir a qualidade dos equipamentos</li>
+                            <li>Treinamentos em diversos equipamentos eletrônicos hospitalares</li>
+                            <li>Atendimento de ordens de serviço, preenchimento de relatórios e feedbacks aos clientes
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="experiencia">
+                        <h4>Janeiro de 2020 - Dezembro de 2021</h4>
+                        <p><strong>Farmácia Medcall</strong> - Menor Aprendiz <em>(Passo Fundo, RS)</em></p>
+                        <ul>
+                            <li>Setor Almoxarifado</li>
+                            <li>Separação e entrega de pedidos</li>
+                            <li>Organização e controle de estoque</li>
+                            <li>Atendimento a sistemas, transferências e planilhas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content" id="softhardskills">
+                <div class="curriculo-box">
+                    <h3>Hard Skills</h3>
+                    <ul>
+                        <li><strong>C++</strong></li>
+                        <li><strong>HTML / CSS e JavaScript</strong></li>
+                        <li><strong>Java</strong></li>
+                        <li><strong>PostgreSQL</strong></li>
+                        <li><strong>API Rest</strong></li>
+                        <li><strong>Postman</strong></li>
+                        <li><strong>K6</strong></li>
+                        <li><strong>JMeter</strong></li>
+                        <li><strong>Inglês Técnico (inicial)</strong></li>
+                    </ul>
+                </div>
+
+                <div class="curriculo-box">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li><strong>Comunicativa</strong></li>
+                        <li><strong>Produtiva</strong></li>
+                        <li><strong>Participativa</strong></li>
+                        <li><strong>Organizada</strong></li>
+                        <li><strong>Dedicada</strong></li>
+                        <li><strong>Trabalho em equipe</strong></li>
+                        <li><strong>Adaptável</strong></li>
+                        <li><strong>Criativa</strong></li>
+                        <li><strong>Competente</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

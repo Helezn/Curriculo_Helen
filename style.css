@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    height: 200px;
+}
+
+.titulo {
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma;
+    color: #333;
+    padding-bottom: 100px;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    border-top-left-radius: 50%;
+}
+
+.content {
+    display: none;
+}
+
+.content.show {
+    display: flex;
+}
+
+.tab-buttons {
+    display: flex;
+    margin: 40px auto;
+    gap: 6px;
+}
+
+.tab-btn {
+    width: 95%;
+    border: none;
+    color: #020617;
+    background-color: #2980b9;
+    border-radius: 8px 8px 0px 0px;
+    font-weight: 500;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.tab-btn.active {
+    background-color: #5b8dd7;
+}
+
+.tab-btn:hover {
+    background-color: #3f85ba;
+}
+
+.content {
+    display: none;
+}
+
+.content.show {
+    display: flex;
+}
+
+.curriculo-box {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .curriculo-box h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .curriculo-box h2 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    color: #34495e;
+  }
+  
+  .curriculo-box p {
+    margin: 5px 0;
+  }
+  
+  .curriculo-box .contato {
+    margin-top: 20px;
+    font-size: 0.95em;
+    color: #555;
+  }
+  
+  .curriculo-box .secao {
+    margin-top: 25px;
+  }
+  
+  .curriculo-box .secao h3 {
+    border-left: 4px solid #2980b9;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #2980b9;
+  }
+  .curriculo-box .contato {
+    margin-top: 20px;
+    font-size: 0.95em;
+    color: #555;
+  }
+   .curriculo-box ul, .curriculo-box ol {
+        margin: 10px 0;
+        padding-left: 20px;
+      }
+  
+      .curriculo-box ul li, .curriculo-box ol li {
+        margin-bottom: 8px;
+      }
+  .curriculo-box .experiencia {
+    margin-bottom: 25px;
+  }
+  
+  .curriculo-box .experiencia h4 {
+    font-size: 1.1em;
+    color: #2980b9;
+    margin: 10px 0;
+  }
+  
+  .curriculo-box .experiencia p {
+    margin: 5px 0;
+  }
+  
